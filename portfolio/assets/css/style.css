@@ -1,0 +1,18 @@
+/* asteriks is universal */
+* {
+    color: darkcyan;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+/* element styles */
+.header {background-color:paleturquoise ;
+        text-align: center;}
+
+/* classes */
+
+.p-c    {position: fixed;
+        top: 20;
+        right: 48px;
+        left: 48px;}
+
+
