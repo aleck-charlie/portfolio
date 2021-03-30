@@ -1,18 +1,22 @@
-/* asteriks is universal */
-* {
-    color: darkcyan;
-    font-family:Arial, Helvetica, sans-serif;
+                                                                                                                                                                                                                                                                                                                                                                                /* asteriks is universal */
+* { font-family:Arial, Helvetica, sans-serif;}
 
-}
 /* element styles */
 .header {background-color:paleturquoise ;
+        color: darkslategray;
         text-align: center;}
 
 /* classes */
 
-.p-c    {position: fixed;
-        top: 20;
-        right: 48px;
-        left: 48px;}
+.p-c    {position: sticky;
+        top: 0px;
+        right: 24px;
+        left: 24px;}
 
+.p      {
+        top: 0px;
+        right: 24px;
+        left: 24px;
+        padding: 10px;}
 
+.body   {background-color: lightcyan;}
