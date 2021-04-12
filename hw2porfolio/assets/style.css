@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', 'Helvetica' sans-serif;
+}
+
+body {
+    background: url(https://media.giphy.com/media/xT0GqcCJJJH12hJvGM/giphy.gif);
+    background: cover;
+}
+
+header {
+    padding: 1%;
+    font-size: 16px;
+    position: sticky;
+    background-color: plum;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: whitesmoke;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Montserrat','Helvetica', sans-serif;
+    font-size: 20px;
+}
+
+header div ul {
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.bio {
+    display: inline-block;  
+    width: 500px;
+    padding-right: 0px;
+    margin: 2%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: cornflowerblue;
+    font-weight:bold;
+}
+
+.aboutmeimg {
+    margin: 10%;
+    display: inline-block;
+    width: 75%;   
+}
+
+/* Projects */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px;
+  background: plum;
+  color: #fff;
+  font-weight: bold;
+}
+
+.project {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: dashed;
+  border-color: plum;
+  border-width: 3px;
+}
+
+.project header {
+  padding: 5%;
+  background:plum;
+  color: blueviolet;
+}
+
+.project img {
+  width: 100%;
+  min-width: 48px;
+  background-color:powderblue;
+  margin: 2%;
+}
+
+.projectfooter {
+    background-color: plum;
+}
+
+/* Contact */
+
+h2 {
+    margin: 10%;
+    align-self: center;
+}
+
+/* Media queries section, was not able to complete 
+@media screen and (max-width: 992px) {
+    something changes{
+    }
+  }
+
+@media screen and (max-width: 576px) {
+    something changes{
+    }
+  }
+
+*/
