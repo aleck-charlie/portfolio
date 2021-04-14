@@ -54,7 +54,8 @@ header div ul li {
 .aboutmeimg {
     margin: 10%;
     display: inline-block;
-    width: 75%;   
+    width: 75%;
+    background-color: cornflowerblue;   
 }
 
 /* Projects */
@@ -103,9 +104,11 @@ main {
 
 /* Contact */
 
-h2 {
+.contactme {
     margin: 10%;
-    align-self: center;
+    display: inline-block;
+    align-items: center;
+    background-color: cornflowerblue;
 }
 
 /* Media queries section, was not able to complete 

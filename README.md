@@ -1,3 +1,3 @@
-HW2 Portfolio is the final edit for 4/11/2021
+Added photo, lorem ipsum bio, nav bar that links to content on page. 
 
-update!
+In the future I will build in responsive boxes and add decoration to links
