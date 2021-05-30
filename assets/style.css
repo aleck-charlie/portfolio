@@ -1,61 +1,63 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', 'Helvetica' sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", "Helvetica" sans-serif;
 }
-
+a {
+  text-decoration: none;
+}
 body {
-    background: url(https://media.giphy.com/media/xT0GqcCJJJH12hJvGM/giphy.gif);
-    background: cover;
+  background: url(https://media.giphy.com/media/xT0GqcCJJJH12hJvGM/giphy.gif);
+  background: cover;
 }
 
 header {
-    padding: 1%;
-    font-size: 16px;
-    position: sticky;
-    background-color: plum;
+  padding: 1%;
+  font-size: 16px;
+  position: sticky;
+  background-color: plum;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
-    color: whitesmoke;
+  display: inline-block;
+  font-size: 48px;
+  color: whitesmoke;
+  margin-left: 25px;
 }
 
 header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Montserrat','Helvetica', sans-serif;
-    font-size: 20px;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Montserrat", "Helvetica", sans-serif;
+  font-size: 20px;
 }
 
 header div ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.img {
+  margin-top: 25px;
+  max-width: 25%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bio {
-    display: inline-block;  
-    width: 500px;
-    padding-right: 0px;
-    margin: 2%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: cornflowerblue;
-    font-weight:bold;
-}
-
-.aboutmeimg {
-    margin: 10%;
-    display: inline-block;
-    width: 75%;
-    background-color: cornflowerblue;   
+  background-color: rgba(80, 23, 212, 0.75);
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 45px;
 }
 
 /* Projects */
@@ -64,6 +66,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2%;
+  justify-content: space-between;
 }
 
 .main-header {
@@ -87,39 +90,79 @@ main {
 
 .project header {
   padding: 5%;
-  background:plum;
+  background: plum;
   color: blueviolet;
 }
 
 .project img {
   width: 100%;
   min-width: 48px;
-  background-color:powderblue;
+  background-color: powderblue;
   margin: 2%;
 }
 
 .projectfooter {
-    background-color: plum;
+  background-color: plum;
 }
 
 /* Contact */
 
 .contactme {
-    margin: 10%;
-    display: inline-block;
-    align-items: center;
-    background-color: cornflowerblue;
+  margin: 10%;
+  display: inline-block;
+  align-items: center;
+  background-color: cornflowerblue;
 }
 
-/* Media queries section, was not able to complete 
 @media screen and (max-width: 992px) {
-    something changes{
-    }
+  .img {
+    margin-top: 25px;
+    max-width: 25%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
+  .bio {
+    background-color: rgba(80, 23, 212, 0.75);
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    margin-top: 25px;
+    max-width: 25%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bio {
+    background-color: rgba(80, 23, 212, 0.75);
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 45px;
+  }
+}
 
 @media screen and (max-width: 576px) {
-    something changes{
-    }
+  .img {
+    max-width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-
-*/
+  .bio {
+    background-color: rgba(80, 23, 212, 0.75);
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+}
