@@ -42,7 +42,7 @@ header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* -------- Bio  ----------------------------------------*/
 .img {
   margin-top: 25px;
   max-width: 25%;
@@ -60,7 +60,7 @@ header div ul li {
   margin: 45px;
 }
 
-/* Projects */
+/* -------- Project Cards ----------------------------------------*/
 
 main {
   display: flex;
@@ -103,15 +103,26 @@ main {
   background-color: plum;
 }
 
-/* Contact */
+/* -------- Contact  ----------------------------------------*/
 
 .contactme {
-  margin: 10%;
-  display: inline-block;
+  color: azure;
+  margin: 2em;
+  display: flex;
   align-items: center;
   background-color: cornflowerblue;
+  font-size: 20px;
+  font-weight: 400;
 }
 
+.contactlink {
+  color:rgba(255, 255, 255, 0.863);
+}
+
+.contactlink:hover {
+  color: rgba(239, 255, 8, 0.863);
+}
+/* -------- Media Queries ----------------------------------------*/
 @media screen and (max-width: 992px) {
   .img {
     margin-top: 25px;
