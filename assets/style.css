@@ -83,16 +83,14 @@ main {
   flex: 1 0 0;
   padding: 10px;
   text-align: center;
-  border-style: dashed;
-  border-color: plum;
-  border-width: 3px;
+
 }
 
-.project header {
+/* .project header {
   padding: 5%;
   background: plum;
   color: blueviolet;
-}
+} */
 
 .project img {
   width: 100%;
