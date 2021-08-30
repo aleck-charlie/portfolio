@@ -20,6 +20,7 @@ a:hover {
 body {
   background: url(https://media.giphy.com/media/xT0GqcCJJJH12hJvGM/giphy.gif);
   background: cover;
+  background-repeat: repeat-x;
 }
 
 header {
@@ -43,6 +44,7 @@ header div {
   float: right;
   font-family: "Montserrat", "Helvetica", sans-serif;
   font-size: 20px;
+  background: #f6e6fa;
 }
 
 header div ul {
@@ -53,15 +55,11 @@ header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
-/* -------- Bio  ----------------------------------------*/
-.img {
-  margin-top: 25px;
-  max-width: 25%;
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+footer {
+  text-align: right;
 }
+/* -------- Bio  ----------------------------------------*/
 
 .bio {
   background-color: aliceblue;
@@ -73,74 +71,17 @@ header div ul li {
   margin-bottom: 20px;
 }
 
-/* -------- Project Cards ----------------------------------------*/
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2%;
-  justify-content: space-between;
-}
-
-.main-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 60px;
-  background: plum;
-  color: #fff;
-  font-weight: bold;
-}
-
-.project {
-  flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-}
-
-.project img {
-  width: 100%;
-  min-width: 48px;
-  background-color: powderblue;
-  margin: 2%;
-}
-
-.projectfooter {
-  background-color: plum;
-}
-
 /* -------- Contact  ----------------------------------------*/
 
-.contactme {
-  color: azure;
-  margin: 2em;
-  display: flex;
-  align-items: center;
-  background-color: cornflowerblue;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.contactlink {
-  color: rgba(255, 255, 255, 0.863);
-}
-
-.contactlink:hover {
-  color: rgba(239, 255, 8, 0.863);
-}
 /* -------- Media Queries ----------------------------------------*/
 @media screen and (max-width: 992px) {
-  .img {
-    margin-top: 25px;
-    max-width: 25%;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  header div {
+    margin: auto;
+    font-size: 20px;
+    background: #f6e6fa;
   }
   .bio {
-    background-color: rgba(80, 23, 212);
-    color: whitesmoke;
+
     padding: 20px;
     border-radius: 5px;
     margin: auto;
@@ -149,17 +90,12 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  .img {
-    margin-top: 25px;
-    max-width: 25%;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  header div {
+    margin: auto;
+    font-size: 20px;
+    background: #f6e6fa;
   }
   .bio {
-    background-color: rgba(80, 23, 212, 0.75);
-    color: whitesmoke;
     padding: 20px;
     border-radius: 5px;
     margin: 45px;
@@ -167,16 +103,12 @@ main {
 }
 
 @media screen and (max-width: 576px) {
-  .img {
-    max-width: 50%;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  header div {
+    margin: auto;
+    font-size: 20px;
+    background: #f6e6fa;
   }
   .bio {
-    background-color: rgba(80, 23, 212, 0.75);
-    color: whitesmoke;
     padding: 20px;
     border-radius: 5px;
     margin: 10px;
