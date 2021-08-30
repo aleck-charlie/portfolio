@@ -79,6 +79,12 @@ p {
   text-align: center;
   font-size: 20px;
 }
+
+.note {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
 /* -------- card    ----------------------------------------*/
 
 .card  {
