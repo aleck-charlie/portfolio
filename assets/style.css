@@ -3,10 +3,20 @@
   padding: 0;
   margin: 0;
   font-family: "Montserrat", "Helvetica" sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 a {
   text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  color: #2000ec;
+  margin-left: 25px;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   background: url(https://media.giphy.com/media/xT0GqcCJJJH12hJvGM/giphy.gif);
   background: cover;
@@ -16,13 +26,14 @@ header {
   padding: 1%;
   font-size: 16px;
   position: sticky;
-  background-color: plum;
+  background: #f6e6fa;
 }
 
 header h1 {
   display: inline-block;
   font-size: 48px;
-  color: whitesmoke;
+  color: #2000ec;
+  text-shadow: -3px 3px #a7ff10;
   margin-left: 25px;
 }
 
@@ -53,11 +64,13 @@ header div ul li {
 }
 
 .bio {
-  background-color: rgba(80, 23, 212, 0.75);
-  color: whitesmoke;
-  padding: 20px;
+  background-color: aliceblue;
+  padding: 10px;
   border-radius: 5px;
-  margin: 45px;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 /* -------- Project Cards ----------------------------------------*/
@@ -83,14 +96,7 @@ main {
   flex: 1 0 0;
   padding: 10px;
   text-align: center;
-
 }
-
-/* .project header {
-  padding: 5%;
-  background: plum;
-  color: blueviolet;
-} */
 
 .project img {
   width: 100%;
@@ -116,7 +122,7 @@ main {
 }
 
 .contactlink {
-  color:rgba(255, 255, 255, 0.863);
+  color: rgba(255, 255, 255, 0.863);
 }
 
 .contactlink:hover {
@@ -133,11 +139,12 @@ main {
     margin-right: auto;
   }
   .bio {
-    background-color: rgba(80, 23, 212, 0.75);
+    background-color: rgba(80, 23, 212);
     color: whitesmoke;
     padding: 20px;
     border-radius: 5px;
-    margin: 45px;
+    margin: auto;
+    max-width: 800px;
   }
 }
 
