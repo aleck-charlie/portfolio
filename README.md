@@ -1,10 +1,9 @@
-// Updates //
-Updated and styled bio, avatar and contact link with Bootstrap and original CSS 
-Refractored CSS and added functioning media queries for mobile viewing
+## Description
+Welcome to my first deployed portfolio, hopefully the first of many
 
-// Next steps //
-Updating project cards with current work, cleaning up headers/footers of project cards so there is no overlap
+## Deployed App
+My deployed app can be found at https://aleck-charlie.github.io/portfolio/
 
-Attaching links to resume and LinkedIn
-
-Adding "return to top" button
+## Contact me
+Find me on LinkedIn at: https://www.linkedin.com/in/charlie-aleck-755785205/
+Email me at: aleckcharlie@gmail.com
