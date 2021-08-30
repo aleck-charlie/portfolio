@@ -68,6 +68,13 @@ p {
   font-size: 20px;
 }
 
+.button {
+  background: chartreuse;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+}
+
 .contact {
   text-align: center;
   font-size: 20px;
@@ -84,7 +91,17 @@ p {
   margin-bottom: 20px;
 }
 
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    background: aliceblue;
+    border: none;
+}
 
+.projects {
+  display: flex;
+  justify-content: space-around;
+}
 /* -------- Contact  ----------------------------------------*/
 
 /* -------- Media Queries ----------------------------------------*/
